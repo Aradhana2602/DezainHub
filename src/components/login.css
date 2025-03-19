@@ -1,0 +1,143 @@
+/* Main container */
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+/* Left Section (Gradient Background) */
+.sub-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
+  width: 40rem;
+  height: 35rem;
+  background: linear-gradient(to bottom, #01222E, #1f7299);
+  border-radius: 2rem;
+  position: relative;
+  color: white;
+}
+
+.logo {
+  align-self: flex-start;
+}
+
+.content-wrapper {
+  margin-top: auto; /* Pushes content to the bottom */
+}
+
+.content1 {
+  width: 100%;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.content2 {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* Right Section (Login Form) */
+.login-container {
+  max-width: 50rem;
+  margin: 50px auto;
+  padding: 5rem;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+/* Input Group Styling */
+.input-group {
+  display: flex;
+  flex-direction: column; /* Stack label and input in a column */
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.input-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.input-group input {
+  width: 900%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0056b3, #003f7f);
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .login-container {
+    width: 90%;
+  }
+}
