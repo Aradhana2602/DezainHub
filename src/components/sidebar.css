@@ -1,0 +1,32 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height sidebar */
+    width: 15rem;
+    color: black;
+    padding: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    height: 100%;
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  
+  .menu-item:hover {
+    background: #34495e;
+  }
+  
+  .bottom-items {
+    margin-top: auto; /* Pushes it to the bottom */
+  }
+  

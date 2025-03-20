@@ -1,0 +1,51 @@
+.dashboard-container {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Timesheet takes more space, Statistics & ActiveToday are beside it */
+  .timesheet {
+    flex: 2;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Timesheet takes more space, Statistics & ActiveToday are beside it */
+  .timesheet {
+    flex: 2;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
