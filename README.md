@@ -25,4 +25,5 @@ This is the implementation of the given **Figma design** for the **Frontend Inte
 
 ---
 
-## 📂 **File Structure**
+**To access the dashboard, navigate to:**  
+👉 **`http://localhost:3000/dashboard`** when running the project locally. 🚀
